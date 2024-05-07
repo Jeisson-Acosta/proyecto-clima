@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0, 120, 136);
+    font-family: monospace;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    min-width: 520px;
+    min-height: 300px;
+    padding: 20px;
+    border-radius: 10px
+}
+.contenedor-busqueda{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+.contenedor-busqueda input[type="text"]{
+    padding: 10px;
+    width: 60%;
+    font-size: 14px;
+}
+.contenedor-busqueda button{
+    padding: 10px;
+    width: 40%;
+    background-color: rgb(0, 120, 136);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.info-clima{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    font-size: 18px;
+}
